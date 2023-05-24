@@ -1,0 +1,20 @@
+
+
+Classe GrafoValorado
+• removerAresta - Thales
+• grau (retornar o númer de arestas que está do vertice) Thales - (ok)
+• numeroVertices - Caique
+• numeroArestas - Otavio
+
+Classe BuscaEmProfundidade
+• construtor - Thales
+• imprimirResultado - Caique
+
+Classe BuscaEmProfundidade
+• constructor - Thales
+• imprimirResultado - Otavio
+
+Classe GrafoArquivo
+• salvarArquivoGrafo - Thales
+• lerArquivoGrafo - Thales
+
