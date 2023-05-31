@@ -16,7 +16,7 @@ public class GrafoValorado {
         }
     }
 
-    private ArrayList<Aresta> listaAdjacencia[];
+    ArrayList<Aresta> listaAdjacencia[];
     private int numeroVertices;
 
     public GrafoValorado(int numeroVertices) {
@@ -69,10 +69,20 @@ public class GrafoValorado {
         System.out.println("Agora o grafo possui " + g.numeroArestas() + " arestas"); // Saída: 3
 
         BuscaEmProfundidade buscaProfundidade = new BuscaEmProfundidade(g, 0);
-        busca.imprimirResultado();
+        buscaProfundidade.imprimirResultado();
 
         BuscaEmLargura buscaLargura = new BuscaEmLargura(g, 0);
-        busca.imprimirResultado();
+        buscaLargura.imprimirResultado();
+
+        String caminhoArquivo = "grafo.txt";
+
+        boolean sucesso = GrafoArquivo.salvarArquivoGrafo(g, caminhoArquivo);
+
+        if (sucesso) {
+            System.out.println("Arquivo de exemplo criado com sucesso.");
+        } else {
+            System.out.println("Falha ao criar o arquivo de exemplo.");
+        }
 
         System.out.println(g.toDot());
     }

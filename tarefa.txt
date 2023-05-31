@@ -7,12 +7,12 @@ Classe GrafoValorado
 • numeroArestas - Otavio (ok)
 
 Classe BuscaEmProfundidade
-• construtor - Thales
-• imprimirResultado - Caique
+• construtor - Thales (ok)
+• imprimirResultado - Caique (ok)
 
-Classe BuscaEmProfundidade
-• constructor - Thales
-• imprimirResultado - Otavio
+Classe BuscaEmLargura
+• constructor - Thales (ok)
+• imprimirResultado - Otavio (ok)
 
 Classe GrafoArquivo
 • salvarArquivoGrafo - Thales
