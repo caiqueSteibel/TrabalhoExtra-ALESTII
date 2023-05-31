@@ -15,6 +15,6 @@ Classe BuscaEmLargura
 • imprimirResultado - Otavio (ok)
 
 Classe GrafoArquivo
-• salvarArquivoGrafo - Thales
-• lerArquivoGrafo - Thales
+• salvarArquivoGrafo - Thales (ok)
+• lerArquivoGrafo - Thales (ok)
 

@@ -23,7 +23,7 @@ public class GrafoArquivo {
 
             return grafo;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e);
         }
 
         return null;
@@ -43,7 +43,7 @@ public class GrafoArquivo {
 
             return true;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e);
         }
 
         return false;
