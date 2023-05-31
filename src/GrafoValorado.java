@@ -1,5 +1,7 @@
 package aula24_grafos_valorado;
 
+//Caique Cella, Otávio Cunha e Thales Veigas
+
 import java.util.ArrayList;
 
 public class GrafoValorado {
