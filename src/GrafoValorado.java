@@ -67,6 +67,13 @@ public class GrafoValorado {
 
         g.removerAresta(0, 2);
         System.out.println("Agora o grafo possui " + g.numeroArestas() + " arestas"); // Saída: 3
+
+        BuscaEmProfundidade buscaProfundidade = new BuscaEmProfundidade(g, 0);
+        busca.imprimirResultado();
+
+        BuscaEmLargura buscaLargura = new BuscaEmLargura(g, 0);
+        busca.imprimirResultado();
+
         System.out.println(g.toDot());
     }
 
